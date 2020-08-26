@@ -114,6 +114,10 @@ public class RecordButton extends AppCompatImageView implements View.OnTouchList
                     recordView.onActionUp((RecordButton) v);
                     break;
 
+                case MotionEvent.ACTION_CANCEL:
+                    recordView.onActionUp((RecordButton) v);
+                    break;
+
             }
 
         }
